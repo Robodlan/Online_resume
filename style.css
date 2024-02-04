@@ -1,0 +1,11 @@
+:root {
+  --sm-wg: 300;
+  --md-wg: 400;
+  --lg-wg: 500;
+  --f-size-sm: 1rem;
+  --f-size-md: 2rem;
+  --f-size-lg: 2.5rem;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
