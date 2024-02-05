@@ -16,6 +16,10 @@ body {
   background-color: #333;
 }
 /* Typography */
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
 h1{
   font-weight: var(--lg-wg);
   font-size: var(--f-size-lg);
