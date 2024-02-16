@@ -19,6 +19,8 @@ body {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: #333;
+  text-decoration: underline;
 }
 h1{
   font-weight: var(--lg-wg);
