@@ -20,7 +20,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   color: #333;
-  text-decoration: underline;
+  text-decoration: none;
 }
 h1{
   font-weight: var(--lg-wg);
@@ -42,4 +42,19 @@ main {
   max-width: 500px;
   padding: 3em;
   margin: 2em;
+}
+
+.per-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.email, 
+.location,
+.portfolio,
+.linkedin,
+.github {
+ margin: 0.2em;
+ /* line-height: 1em; */
 }
