@@ -58,3 +58,17 @@ main {
  margin: 0.2em;
  /* line-height: 1em; */
 }
+
+.download-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 17%;
+  padding: 0.2em;
+  color: #333;
+}
+.download-btn:hover,
+.download-btn:focus
+ {
+  color: #f4f4f4;
+  background: #333;
+}
