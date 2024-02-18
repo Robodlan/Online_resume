@@ -22,10 +22,10 @@ a {
   color: #333;
   text-decoration: none;
 }
-h1{
+/* h1{
   font-weight: var(--lg-wg);
   font-size: var(--f-size-lg);
-}
+} */
 
 .container {
   margin: 0 auto;
@@ -80,4 +80,22 @@ main {
   color: #333;
   background: #f4f4f4;
   border: 1px solid #333;
+}
+
+@media screen and (max-width: 480px) {
+  h1{
+    font-size: var(--f-size-md);
+    font-weight: var(--md-wg);
+  }
+
+  h2 {
+    font-size: var(--f-size-sm);
+    font-weight: var(--light-wg);
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 70%;
+   
+  }
 }
