@@ -59,7 +59,6 @@ main {
 .linkedin,
 .github {
  margin: 0.2em;
- /* line-height: 1em; */
 }
 
 .download-btn {
@@ -83,6 +82,9 @@ main {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+     height: 100dvh;
+  }
   h1{
     font-size: var(--f-size-md);
     font-weight: var(--md-wg);
@@ -95,7 +97,40 @@ main {
 
   .container {
     margin: 0 auto;
-    width: 70%;
-   
+    width: 80%;
+  }
+
+  main {
+    max-width: 400px;
+    padding: 3em;
+    margin: 0.3em;
+    width: 80%;
+  }
+
+  .per-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    line-height: 1.3em;
+  }
+  .email, 
+  .location,
+  .portfolio,
+  .linkedin,
+  .github {
+   margin: 0.2em;
+  }
+
+  .download {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+  }
+  .download-btn {
+    width: 60%;
+    padding: 0.2em;
+    font-weight: var(--sm-wg);
+    font-size: var(--f-size-sm);
   }
 }
