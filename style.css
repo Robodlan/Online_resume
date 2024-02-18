@@ -25,16 +25,15 @@ a {
   color: #333;
   text-decoration: none;
 }
-h1{
+/* h1{
   font-weight: var(--lg-wg);
   font-size: var(--f-size-lg);
 }
 
 h2 {
-  color: #2e2e2e;
-  font-weight: var(--lg-wg);
-  font-size: var(--f-size-lg);
-}
+  font-size: var(--f-size-sm);
+  font-weight: var(--md-wg);
+} */
 
 .container {
   margin: 0 auto;
@@ -87,15 +86,15 @@ main {
 
 @media screen and (max-width: 480px) {
   
-  h1{
+  /* h1{
     font-size: var(--f-size-md);
     font-weight: var(--md-wg);
   }
 
   h2 {
     font-size: var(--f-size-sm);
-    font-weight: var(--light-wg);
-  }
+    font-weight: var(--md-wg);
+  } */
 
   .container {
     width: 80%;
@@ -137,15 +136,15 @@ main {
 }
 
 @media screen and (min-width: 481px) and (max-width: 785px) {
-  h1{
+  /* h1{
     font-size: var(--f-size-md);
     font-weight: var(--md-wg);
   }
 
   h2 {
     font-size: var(--f-size-sm);
-    font-weight: var(--light-wg);
-  }
+    font-weight: var(--md-wg);
+  } */
 
   .container {
    width: 100%;
