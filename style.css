@@ -31,6 +31,8 @@ h1{
   margin: 0 auto;
   width: 60%;
   background-color: white;
+  display: flex;
+  justify-content: center;
   /* padding: 10em; */
   /* margin: 2em; */
   
@@ -39,9 +41,10 @@ h1{
 }
 
 main {
-  max-width: 500px;
+  max-width: 600px;
   padding: 3em;
   margin: 2em;
+  width: 80%;
 }
 
 .per-details {
@@ -60,15 +63,21 @@ main {
 }
 
 .download-btn {
-  display: flex;
-  justify-content: space-between;
-  width: 17%;
-  padding: 0.2em;
+  width: 25%;
+  padding: 0.5em;
   color: #333;
+  text-align: center;
+  border: none;
+  border-radius: 0.5em;
+  background: #333;
+  color: #f4f4f4;
+  font-weight: var(--f-size-lg);
+  font-size: var(--f-size-sm);
 }
 .download-btn:hover,
 .download-btn:focus
  {
-  color: #f4f4f4;
-  background: #333;
+  color: #333;
+  background: #f4f4f4;
+  border: 1px solid #333;
 }
