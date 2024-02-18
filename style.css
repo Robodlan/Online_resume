@@ -7,9 +7,12 @@
   --f-size-md: 2rem;
   --f-size-lg: 2.5rem;
 }
+
+
 body {
-  font-family: 'IBM Plex Mono', monospace;
-  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'IBM Plex Mono', 'Roboto', sans-serif, monospace;
+  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,22 +25,23 @@ a {
   color: #333;
   text-decoration: none;
 }
-/* h1{
+h1{
   font-weight: var(--lg-wg);
   font-size: var(--f-size-lg);
-} */
+}
+
+h2 {
+  color: #2e2e2e;
+  font-weight: var(--lg-wg);
+  font-size: var(--f-size-lg);
+}
 
 .container {
   margin: 0 auto;
   width: 60%;
-  background-color: white;
+  background: #f4f4f4;
   display: flex;
   justify-content: center;
-  /* padding: 10em; */
-  /* margin: 2em; */
-  
-  /* max-width: 500px; */
-  /* height: 100vh; */
 }
 
 main {
@@ -82,9 +86,7 @@ main {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-     height: 100dvh;
-  }
+  
   h1{
     font-size: var(--f-size-md);
     font-weight: var(--md-wg);
@@ -96,7 +98,6 @@ main {
   }
 
   .container {
-    margin: 0 auto;
     width: 80%;
   }
 
@@ -130,6 +131,56 @@ main {
   .download-btn {
     width: 60%;
     padding: 0.2em;
+    font-weight: var(--sm-wg);
+    font-size: var(--f-size-sm);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 785px) {
+  h1{
+    font-size: var(--f-size-md);
+    font-weight: var(--md-wg);
+  }
+
+  h2 {
+    font-size: var(--f-size-sm);
+    font-weight: var(--light-wg);
+  }
+
+  .container {
+   width: 100%;
+  }
+
+  main {
+    max-width: 480px;
+    padding: 3em;
+    margin: 0.3em;
+    width: 90%;
+  }
+
+  .per-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    line-height: 1.3em;
+  }
+  .email, 
+  .location,
+  .portfolio,
+  .linkedin,
+  .github {
+   margin: 0.1em;
+  }
+
+  .download {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+  }
+  .download-btn {
+    width: 30%;
+    padding: 0.3em;
     font-weight: var(--sm-wg);
     font-size: var(--f-size-sm);
   }
