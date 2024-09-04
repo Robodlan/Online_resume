@@ -1,1 +1,3 @@
-My front End Developer resume  online
+ # MY FRONT END DEVELOPER RESUME  💻
+ # About 
+ ## This repo is  my online CV, with the pdf download option.
